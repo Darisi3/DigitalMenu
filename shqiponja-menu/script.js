@@ -39,7 +39,7 @@ const menu = [
   { name: "Skara", items: [
     ["Pomfrit", "2.00 €"], ["Pomfrit me Djath", "2.50 €"], ["Hamburger", "2.50 €"],
     ["Hamburger me pomfrit", "2.50 €"], ["Chickenburger me pomfrit", "2.50 €"],
-    ["Pleskavica", "3.50 €"], ["Pleskavice me sos", "25.00 €", "Sos · Sallate · Domate · Tranguj · Pomfrit ""], ["Pleskavicë e Mbushur", "4.00 €"],
+    ["Pleskavica", "3.50 €"], ["Pleskavice me sos", "3.50 €"], ["Pleskavicë e Mbushur", "4.00 €"],
     ["Pleskavicë Shpie", "4.50 €"], ["Qebapa (7 copë)", "3.50 €"], ["Qofte Djegës", "4.00 €"],
     ["Qofte me Kajmakë", "5.00 €"], ["File Pule me sos", "3.50 €"], ["Kombinim", "3.50 €"],
     ["Kombinim Shqiponja", "5.00 €"], ["Virshlle", "3.50 €"], ["Suxhuk Shpie", "3.50 €"],
