@@ -47,7 +47,7 @@ const menu = [
   ]},
   { name: "Mishnat", items: [
     ["Ramstek", "10.00 €"], ["Biftek", "15.00 €"], ["Mish Viqi 1KG", "40.00 €"],
-    ["Muskuj Tavë", "8.00 €"], ["Kotlet", "10.00 €"], ["Mish Viqi Porcion", "13.00 €"]
+    ["Muskuj Tavë", "8.00 €"], ["Kotlet", "10.00 €"], ["Mish Viqi Porcion", "13.00 €"], ["Kombinim i Mishit (Pleskavice, Mish i Bardhe, Pjekje Viqi)", "6.50 €"]
   ]},
   { name: "Specialitete", items: [
     ["Specialitet për dy persona", "25.00 €", "Pogaqë · Sallatë Mixe · Speca me Kajmak · Pjekje Viçi (Ramstek, Muskuj)"],
