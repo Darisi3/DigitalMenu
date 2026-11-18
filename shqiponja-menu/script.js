@@ -39,7 +39,7 @@ const menu = [
   { name: "Skara", items: [
     ["Pomfrit", "2.00 €"], ["Pomfrit me Djath", "2.50 €"], ["Hamburger", "2.50 €"],
     ["Hamburger me pomfrit", "2.50 €"], ["Chickenburger me pomfrit", "2.50 €"],
-    ["Pleskavica", "3.50 €"], ["Pleskavice me sos", "3.50 €"], ["Pleskavicë e Mbushur", "4.00 €"],
+    ["Pleskavica", "3.50 €"], ["Pleskavicë me sos", "3.50 €"], ["Pleskavicë e Mbushur", "4.00 €"],
     ["Pleskavicë Shpie", "4.50 €"], ["Qebapa (7 copë)", "3.50 €"], ["Qofte Djegës", "4.00 €"],
     ["Qofte me Kajmakë", "5.00 €"], ["File Pule me sos", "3.50 €"], ["Kombinim", "3.50 €"],
     ["Kombinim Shqiponja", "5.00 €"], ["Virshlle", "3.50 €"], ["Suxhuk Shpie", "3.50 €"],
@@ -47,7 +47,7 @@ const menu = [
   ]},
   { name: "Mishnat", items: [
     ["Ramstek", "10.00 €"], ["Biftek", "15.00 €"], ["Mish Viqi 1KG", "40.00 €"],
-    ["Muskuj Tavë", "8.00 €"], ["Kotlet", "10.00 €"], ["Mish Viqi Porcion", "13.00 €"], ["Kombinim i Mishit (Pleskavice, Mish i Bardhe, Pjekje Viqi)", "6.50 €"]
+    ["Muskuj Tavë", "8.00 €"], ["Kotlet", "10.00 €"], ["Mish Viqi Porcion", "13.00 €"]
   ]},
   { name: "Specialitete", items: [
     ["Specialitet për dy persona", "25.00 €", "Pogaqë · Sallatë Mixe · Speca me Kajmak · Pjekje Viçi (Ramstek, Muskuj)"],
@@ -76,6 +76,11 @@ const menu = [
     { subtitle: "Pije Alkoolike", items: [
       ["Birra Peja", "1.50 €"], ["Birra Shkupi", "1.50 €"], ["Lasko", "1.50 €"], ["Heineken", "2.50 €"]
     ]}
+  ]},
+  { name: "Ëmbëlsirat", items: [
+    ["Panna Cotta", "1.80 €", "", "assets/PannaCotta.jpg"],
+    ["Cheesecake me fruta mali", "1.80 €", "", "assets/Chessecake.jpg"],
+    ["Lotus Cheesecake", "1.80 €", "", "assets/LotusChessecake.jpg"]
   ]}
 ];
 
@@ -89,17 +94,33 @@ const categoryHours = document.getElementById("category-hours");
 function createMenuItem(item) {
   const row = document.createElement("article");
   row.className = "menu-item";
+
+  // Fotografia opsionale e produktit (përdoret te ëmbëlsirat).
+  if (item[3]) {
+    const photo = document.createElement("img");
+    photo.className = "item-photo";
+    photo.src = item[3];
+    photo.alt = item[0];
+    photo.loading = "lazy";
+    photo.onerror = () => { photo.hidden = true; };
+    row.appendChild(photo);
+  }
+
   const left = document.createElement("div");
+  left.className = "item-details";
   const name = document.createElement("div");
   name.className = "item-name";
   name.textContent = item[0];
   left.appendChild(name);
+
+  // Përbërësit shfaqen poshtë emrit kur plotësohet fusha e tretë.
   if (item[2]) {
     const note = document.createElement("div");
     note.className = "item-note";
     note.textContent = item[2];
     left.appendChild(note);
   }
+
   const price = document.createElement("div");
   price.className = "item-price";
   price.textContent = item[1];
