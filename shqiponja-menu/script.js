@@ -10,10 +10,10 @@ const menu = [
     ["Sallatë Cezar", "4.00 €"], ["Sallatë Pule", "3.50 €"], ["Sallatë Jeshile", "3.00 €"]
   ]},
   { name: "Sandwich", items: [
-    ["Sandwich pule", "2.00 €", " Domate · Tranguj · Marullë · Pomfrit · Sos i Burgerav · Ketchup · Majonez "], 
-    ["Sandwich përshutë", "2.00 €" , " Domate · Tranguj · Marullë · Pomfrit · Sos i Burgerav · Ketchup · Majonez "], 
-    ["Sandwich tuna", "2.50 €", " Domate · Tranguj · Marullë · Pomfrit · Sos i Burgerav · Ketchup · Majonez "],
-    ["Sandwich shpie", "2.50 €" , " Domate · Tranguj · Marullë · Pomfrit · Sos i Burgerav · Ketchup · Majonez ", 
+    ["Sandwich pule", "2.00 €"], 
+    ["Sandwich përshutë", "2.00 €" ], 
+    ["Sandwich tuna", "2.50 €"],
+    ["Sandwich shpie", "2.50 €" , " Domate · Tranguj · Marullë · Pomfrit · Sos i Burgerav · Ketchup · Majonez "], 
     ["Sandwich në petë", "3.50 €", " Domate · Tranguj · Marullë · Pomfrit · Sos i Burgerav · Ketchup · Majonez "]
   ]},
   { name: "Gjellat", items: [
