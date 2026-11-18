@@ -56,8 +56,12 @@ const menu = [
     ["Ullinjë", "1.50 €"], ["Speca me Hudër", "1.50 €"], ["Këpurdha të Fërguara", "3.00 €"]
   ]},
   { name: "Mishnat", items: [
-    ["Ramstek", "10.00 €" ," Perime · Patate · Sos Demiglas " ], ["Biftek", "15.00 €" ," Perime · Patate · Sos Demiglas "], ["Mish Viqi 1KG", "40.00 €" ," Perime · Patate · Sos Demiglas "],
-    ["Muskuj Tavë", "8.00 €" ," Perime · Patate · Sos Demiglas "], ["Kotlet", "10.00 €" ," Perime · Patate · Sos Demiglas "], ["Mish Viqi Porcion", "13.00 €" ," Perime · Patate · Sos Demiglas "]
+    ["Ramstek", "10.00 €" ," Perime · Patate · Sos Demiglas " ], 
+    ["Biftek", "15.00 €" ," Perime · Patate · Sos Demiglas "],
+    ["Mish Viqi 1KG", "40.00 €" ," Perime · Patate · Sos Demiglas "],
+    ["Muskuj Tavë", "8.00 €" ," Perime · Patate · Sos Demiglas "], 
+    ["Kotlet", "10.00 €" ," Perime · Patate · Sos Demiglas "],
+    ["Mish Viqi Porcion", "13.00 €" ," Perime · Patate · Sos Demiglas "],
     ["Kombinim i Mishit (Pleskavice, File Pule , Pjekje Viqi)", "6.50 €" , "Perime · Patate · Sos Demiglas "]
   ]},
   { name: "Specialitete", items: [
