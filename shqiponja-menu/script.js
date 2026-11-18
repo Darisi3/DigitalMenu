@@ -46,7 +46,7 @@ const menu = [
     ["Ullinjë", "1.50 €"], ["Speca me Hudër", "1.50 €"], ["Këpurdha të Fërguara", "3.00 €"]
   ]},
   { name: "Mishnat", items: [
-    ["Ramstek", "10.00 €"], ["Biftek", "15.00 €"], ["Mish Viqi 1KG", "40.00 €"],
+    ["Ramstek", "10.00 €", "Sallate ~ Pomfrit"], ["Biftek", "15.00 €"], ["Mish Viqi 1KG", "40.00 €"],
     ["Muskuj Tavë", "8.00 €"], ["Kotlet", "10.00 €"], ["Mish Viqi Porcion", "13.00 €"]
   ]},
   { name: "Specialitete", items: [
@@ -78,6 +78,7 @@ const menu = [
     ]}
   ]},
   { name: "Ëmbëlsirat", items: [
+    ["Trileqe", "1.00 €"],
     ["Panna Cotta", "1.80 €", "", "assets/PannaCotta.jpg"],
     ["Cheesecake me fruta mali", "1.80 €", "", "assets/Chessecake.jpg"],
     ["Lotus Cheesecake", "1.80 €", "", "assets/LotusChessecake.jpg"]
