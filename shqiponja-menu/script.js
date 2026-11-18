@@ -36,13 +36,12 @@ const menu = [
       ["Pizza Kallxone", "3.00 € / 4.00 €"], ["Pizza Shqiponja", "4.50 € / 5.00 €" , " Suxhuk · Përshutë · Këpurdha · Vezë "]
     ]},
     { subtitle: "Pizza Familjare", items: [
-      ["Shpie", "15.00 €"], ["Margarita", "14.00 €"], ["Tuna", "16.00 €"]
+      ["Shpie", "15.00 €" , "Coca Cola 1.25L"], ["Margarita", "14.00 €" , "Coca Cola 1.25L"], ["Tuna", "16.00 €", "Coca Cola 1.25L"]
     ]}
   ]},
   { name: "Skara", items: [
     ["Pomfrit", "2.00 €"], ["Pomfrit me Djath", "2.50 €"] ,
-    ["Hamburger me pomfrit", "2.50 €" ,
-     ],
+    ["Hamburger me pomfrit", "2.50 €" , " Domate · Tranguj · Marullë · Pomfrit · Sos i Burgerav · Ketchup · Majonez "],
     ["Chickenburger me pomfrit", "2.50 €" , " Domate · Tranguj · Marullë · Pomfrit · Sos i Burgerav · Ketchup · Majonez "],
     ["Pleskavicë me sos", "3.50 €" , "Sallatë Lakër · Domate · Tranguj · Marullë · Pomfrit · Sos "], 
     ["Pleskavicë e Mbushur", "4.00 €" , "Sallatë Lakër · Domate · Tranguj · Marullë · Pomfrit · Sos "],
