@@ -10,8 +10,11 @@ const menu = [
     ["Sallatë Cezar", "4.00 €"], ["Sallatë Pule", "3.50 €"], ["Sallatë Jeshile", "3.00 €"]
   ]},
   { name: "Sandwich", items: [
-    ["Sandwich pule", "2.00 €"], ["Sandwich përshutë", "2.00 €"], ["Sandwich tuna", "2.50 €"],
-    ["Sandwich shpie", "2.50 €"], ["Sandwich në petë", "3.50 €"]
+    ["Sandwich pule", "2.00 €", " Domate · Tranguj · Marullë · Pomfrit · Sos i Burgerav · Ketchup · Majonez "], 
+    ["Sandwich përshutë", "2.00 €" , " Domate · Tranguj · Marullë · Pomfrit · Sos i Burgerav · Ketchup · Majonez "], 
+    ["Sandwich tuna", "2.50 €", " Domate · Tranguj · Marullë · Pomfrit · Sos i Burgerav · Ketchup · Majonez "],
+    ["Sandwich shpie", "2.50 €" , " Domate · Tranguj · Marullë · Pomfrit · Sos i Burgerav · Ketchup · Majonez ", 
+    ["Sandwich në petë", "3.50 €", " Domate · Tranguj · Marullë · Pomfrit · Sos i Burgerav · Ketchup · Majonez "]
   ]},
   { name: "Gjellat", items: [
     ["Gullash", "3.50 €"], ["Pasul", "3.50 €"], ["Speca të mbushur", "3.50 €"],
@@ -30,24 +33,33 @@ const menu = [
       ["Pizza Suxhuk", "3.50 € / 4.50 €"], ["Pizza Tuna", "4.00 € / 5.00 €"],
       ["Pizza Shpie", "4.00 € / 4.50 €"], ["Pizza Vegjetariane", "3.50 € / 4.50 €"],
       ["Pizza Fungi", "3.50 € / 4.50 €"], ["Pizza Regina", "3.50 € / 4.50 €"],
-      ["Pizza Kallxone", "3.00 € / 4.00 €"], ["Pizza Shqiponja", "4.50 € / 5.00 €"]
+      ["Pizza Kallxone", "3.00 € / 4.00 €"], ["Pizza Shqiponja", "4.50 € / 5.00 €" , " Suxhuk · Përshutë · Këpurdha · Vezë "]
     ]},
     { subtitle: "Pizza Familjare", items: [
       ["Shpie", "15.00 €"], ["Margarita", "14.00 €"], ["Tuna", "16.00 €"]
     ]}
   ]},
   { name: "Skara", items: [
-    ["Pomfrit", "2.00 €"], ["Pomfrit me Djath", "2.50 €"], ["Hamburger", "2.50 €"],
-    ["Hamburger me pomfrit", "2.50 €"], ["Chickenburger me pomfrit", "2.50 €"],
-    ["Pleskavica", "3.50 €"], ["Pleskavicë me sos", "3.50 €"], ["Pleskavicë e Mbushur", "4.00 €"],
-    ["Pleskavicë Shpie", "4.50 €"], ["Qebapa (7 copë)", "3.50 €"], ["Qofte Djegës", "4.00 €"],
-    ["Qofte me Kajmakë", "5.00 €"], ["File Pule me sos", "3.50 €"], ["Kombinim", "3.50 €"],
-    ["Kombinim Shqiponja", "5.00 €"], ["Virshlle", "3.50 €"], ["Suxhuk Shpie", "3.50 €"],
+    ["Pomfrit", "2.00 €"], ["Pomfrit me Djath", "2.50 €"] ,
+    ["Hamburger me pomfrit", "2.50 €" ,
+     ],
+    ["Chickenburger me pomfrit", "2.50 €" , " Domate · Tranguj · Marullë · Pomfrit · Sos i Burgerav · Ketchup · Majonez "],
+    ["Pleskavicë me sos", "3.50 €" , "Sallatë Lakër · Domate · Tranguj · Marullë · Pomfrit · Sos "], 
+    ["Pleskavicë e Mbushur", "4.00 €" , "Sallatë Lakër · Domate · Tranguj · Marullë · Pomfrit · Sos "],
+    ["Pleskavicë Shpie", "4.50 €", "Sallatë Lakër · Domate · Tranguj · Marullë · Pomfrit · Sos "], 
+    ["Qebapa (7 copë)", "3.50 €" , "Sallatë Lakër · Domate · Tranguj · Marullë · Pomfrit · Sos "], 
+    ["Qofte Djegës", "4.00 €", "Sallatë Lakër · Domate · Tranguj · Marullë · Pomfrit · Sos "],
+    ["Qofte me Kajmakë", "5.00 €"], ["File Pule me sos", "3.50 €" , "Sallatë Lakër · Domate · Tranguj · Marullë · Pomfrit · Sos "], 
+    ["Kombinim", "3.50 €" , "Sallatë Lakër · Domate · Tranguj · Marullë · Pomfrit · Sos "],
+    ["Kombinim Shqiponja", "5.00 €" , "Sallatë Lakër · Domate · Tranguj · Marullë · Pomfrit · Sos "], 
+    ["Virshlle", "3.50 €" , "Sallatë Lakër · Domate · Tranguj · Marullë · Pomfrit · Sos "], 
+    ["Suxhuk Shpie", "3.50 €" , "Sallatë Lakër · Domate · Tranguj · Marullë · Pomfrit · Sos "],
     ["Ullinjë", "1.50 €"], ["Speca me Hudër", "1.50 €"], ["Këpurdha të Fërguara", "3.00 €"]
   ]},
   { name: "Mishnat", items: [
-    ["Ramstek", "10.00 €", "Sallate ~ Pomfrit"], ["Biftek", "15.00 €"], ["Mish Viqi 1KG", "40.00 €"],
-    ["Muskuj Tavë", "8.00 €"], ["Kotlet", "10.00 €"], ["Mish Viqi Porcion", "13.00 €"]
+    ["Ramstek", "10.00 €" ," Perime · Patate · Sos Demiglas " ], ["Biftek", "15.00 €" ," Perime · Patate · Sos Demiglas "], ["Mish Viqi 1KG", "40.00 €" ," Perime · Patate · Sos Demiglas "],
+    ["Muskuj Tavë", "8.00 €" ," Perime · Patate · Sos Demiglas "], ["Kotlet", "10.00 €" ," Perime · Patate · Sos Demiglas "], ["Mish Viqi Porcion", "13.00 €" ," Perime · Patate · Sos Demiglas "]
+    ["Kombinim i Mishit (Pleskavice, File Pule , Pjekje Viqi)", "6.50 €" , "Perime · Patate · Sos Demiglas "]
   ]},
   { name: "Specialitete", items: [
     ["Specialitet për dy persona", "25.00 €", "Pogaqë · Sallatë Mixe · Speca me Kajmak · Pjekje Viçi (Ramstek, Muskuj)"],
